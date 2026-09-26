@@ -1,0 +1,11 @@
+{
+  "dataset": "Peresheek.GO places",
+  "version": "0.2",
+  "record_count": 100,
+  "quality_states": {
+    "verified_source": "record grounded in a named source; individual fields may still need periodic refresh",
+    "needs_details": "real object with a source, but missing structured details/coordinates",
+    "needs_primary_source": "real object currently relying on a secondary source",
+    "candidate": "real named candidate awaiting source-level verification before publication"
+  }
+}
