@@ -1,0 +1,199 @@
+{
+  "version": "0.1",
+  "updated_at": "2026-09-26",
+  "methodology": "Seed food layer for itinerary planning. Prefer official tourism/venue sources. Third-party listings are marked accordingly. Opening hours and prices are volatile and must be rechecked before use.",
+  "eateries": [
+    {
+      "id": "vyborg-medieval-tavern",
+      "name": "Средневековая Таверна",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "restaurant",
+      "cuisine": [
+        "european",
+        "local_theme"
+      ],
+      "address": "Крепостная ул., 3",
+      "hours_note": "Вс–Пт 11:00–22:00; Сб 10:00–22:00",
+      "source_url": "https://visitvbg.ru/eda/restorany",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-slavyanskaya-trapeza",
+      "name": "Славянская Трапеза",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "cafe",
+      "cuisine": [
+        "russian"
+      ],
+      "area_note": "исторический центр",
+      "source_url": "https://www.visitvbg.ru/gde-poest/kafe?page=1",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-epicentr",
+      "name": "Траттория «Эпиццентр»",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "cafe",
+      "cuisine": [
+        "italian"
+      ],
+      "area_note": "центр, в шаговой доступности от ж/д и автовокзала",
+      "source_url": "https://visitvbg.ru/eda",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-ulybka",
+      "name": "Кафе «Улыбка»",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "cafe",
+      "cuisine": [],
+      "area_note": "центр, рядом с ж/д и автовокзалом и Красной площадью",
+      "source_url": "https://visitvbg.ru/eda",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-sampo",
+      "name": "Кафе «Сампо»",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "cafe",
+      "cuisine": [
+        "karelian_finnish_note",
+        "vegetarian"
+      ],
+      "area_note": "центр",
+      "source_url": "https://visitvbg.ru/eda",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-risole",
+      "name": "Семейная кондитерская Risole",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "bakery_cafe",
+      "cuisine": [
+        "desserts",
+        "french"
+      ],
+      "source_url": "https://www.visitvbg.ru/gde-poest/kafe?page=1",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-city-gastrobar",
+      "name": "City Gastrobar",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "gastrobar",
+      "cuisine": [
+        "burgers",
+        "steaks"
+      ],
+      "area_note": "Красная площадь",
+      "source_url": "https://visitvbg.ru/eda?page=1",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "vyborg-medved",
+      "name": "Ресторан «Медведь»",
+      "locality": "Выборг",
+      "cluster": "rail-vyborg",
+      "type": "restaurant",
+      "cuisine": [
+        "european",
+        "game"
+      ],
+      "address": "Крепостная ул., 6",
+      "source_url": "https://visitvbg.ru/eda/restorany",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "repino-shalyapin",
+      "name": "Шаляпин",
+      "locality": "Репино",
+      "cluster": "rail-repino",
+      "type": "restaurant",
+      "cuisine": [],
+      "address": "Нагорная ул., 1",
+      "source_url": "https://visit-petersburg.ru/leisure/restorany/tp-193871-shalyapin/",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "repino-zaliv",
+      "name": "ZaLive",
+      "locality": "Репино",
+      "cluster": "rail-repino",
+      "type": "restaurant",
+      "cuisine": [
+        "author"
+      ],
+      "address": "Приморское ш., 422Б",
+      "area_note": "у пляжа «Чудный», берег Финского залива",
+      "source_url": "https://visit-petersburg.ru/leisure/restorany/tp-193709-zaliv/",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "zelenogorsk-ptichki-yagody",
+      "name": "Птички и ягоды",
+      "locality": "Зеленогорск",
+      "cluster": "rail-zelenogorsk",
+      "type": "restaurant",
+      "cuisine": [],
+      "address": "Приморское ш., 572",
+      "area_note": "ресторанный комплекс Президент-Отеля",
+      "source_url": "https://visit-petersburg.ru/leisure/gostinitsy/prezident-otel/",
+      "source_kind": "official_tourism",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "losevo-dobry-los",
+      "name": "Добрый лось",
+      "locality": "Лосево",
+      "cluster": "rail-losevo",
+      "type": "restaurant_tavern",
+      "cuisine": [
+        "russian",
+        "european"
+      ],
+      "address": "Добролосевская ул., 1",
+      "source_url": "https://www.tripadvisor.ru/Restaurants-g2345504-Losevo_Leningrad_Oblast_Northwestern_District.html",
+      "source_kind": "third_party_listing",
+      "verification_status": "listed_needs_primary_source"
+    },
+    {
+      "id": "losevo-porogi",
+      "name": "Пороги",
+      "locality": "Лосево",
+      "cluster": "rail-losevo",
+      "type": "cafe",
+      "cuisine": [],
+      "source_url": "https://www.tripadvisor.ru/Restaurants-g2345504-Losevo_Leningrad_Oblast_Northwestern_District.html",
+      "source_kind": "third_party_listing",
+      "verification_status": "listed_needs_primary_source"
+    },
+    {
+      "id": "losevo-prichal",
+      "name": "Причал",
+      "locality": "Лосево",
+      "cluster": "rail-losevo",
+      "type": "cafe",
+      "cuisine": [],
+      "source_url": "https://www.tripadvisor.ru/Restaurants-g2345504-Losevo_Leningrad_Oblast_Northwestern_District.html",
+      "source_kind": "third_party_listing",
+      "verification_status": "listed_needs_primary_source"
+    }
+  ]
+}
