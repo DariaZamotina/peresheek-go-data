@@ -14,9 +14,9 @@
         "local_theme"
       ],
       "address": "Крепостная ул., 3",
-      "hours_note": "Вс–Пт 11:00–22:00; Сб 10:00–22:00",
-      "source_url": "https://visitvbg.ru/eda/restorany",
-      "source_kind": "official_tourism",
+      "hours_note": "Ежедневно 12:00–22:00",
+      "source_url": "https://vyborg.travel/kafe_bary_restorany/srednevekovaya-taverna-vyborg",
+      "source_kind": "tourism_portal",
       "verification_status": "verified_source"
     },
     {
@@ -45,7 +45,9 @@
       "area_note": "центр, в шаговой доступности от ж/д и автовокзала",
       "source_url": "https://visitvbg.ru/eda",
       "source_kind": "official_tourism",
-      "verification_status": "verified_source"
+      "verification_status": "verified_source",
+      "address": "ул. Димитрова, 15",
+      "hours_note": "Ежедневно 10:00–24:00"
     },
     {
       "id": "vyborg-ulybka",
@@ -84,9 +86,11 @@
         "desserts",
         "french"
       ],
-      "source_url": "https://www.visitvbg.ru/gde-poest/kafe?page=1",
+      "source_url": "https://visitvbg.ru/semeynaya-konditerskaya-risole",
       "source_kind": "official_tourism",
-      "verification_status": "verified_source"
+      "verification_status": "verified_source",
+      "address": "пр. Ленина, 18, 3 этаж",
+      "hours_note": "09:00–18:00, перерыв 13:00–14:00"
     },
     {
       "id": "vyborg-city-gastrobar",
@@ -98,10 +102,11 @@
         "burgers",
         "steaks"
       ],
-      "area_note": "Красная площадь",
-      "source_url": "https://visitvbg.ru/eda?page=1",
+      "area_note": "Красная площадь, центр Выборга",
+      "source_url": "https://visitvbg.ru/gastrobar-siti-city-gastrobar",
       "source_kind": "official_tourism",
-      "verification_status": "verified_source"
+      "verification_status": "verified_source",
+      "hours_note": "Пн–Чт 11:00–24:00; Пт–Вс 11:00–01:00"
     },
     {
       "id": "vyborg-medved",
@@ -114,9 +119,10 @@
         "game"
       ],
       "address": "Крепостная ул., 6",
-      "source_url": "https://visitvbg.ru/eda/restorany",
-      "source_kind": "official_tourism",
-      "verification_status": "verified_source"
+      "source_url": "https://www.medved-restoran.ru/",
+      "source_kind": "official_venue",
+      "verification_status": "verified_source",
+      "hours_note": "Ежедневно 11:00–22:00"
     },
     {
       "id": "repino-shalyapin",
