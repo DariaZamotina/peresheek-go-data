@@ -1,0 +1,602 @@
+[
+  {
+    "id": "yastreb",
+    "name": "Озеро Ястребиное",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "monrepo",
+    "name": "Парк Монрепо",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "vyborg",
+    "name": "Выборг",
+    "category": "city",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "korela",
+    "name": "Крепость Корела",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "losevo",
+    "name": "Лосевские пороги",
+    "category": "water",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "line",
+    "name": "Линия Маннергейма",
+    "category": "history",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "aaltolib",
+    "name": "Библиотека Алвара Аалто",
+    "category": "city",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "primorsk",
+    "name": "Приморск и Финский залив",
+    "category": "water",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "zelenogorsk",
+    "name": "Зеленогорск",
+    "category": "city",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "vuoksa",
+    "name": "Озеро Вуокса",
+    "category": "water",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "toksovo",
+    "name": "Токсовские высоты",
+    "category": "nature",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "sestroretsk",
+    "name": "Сестрорецк и Разлив",
+    "category": "water",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "lindulovskaya",
+    "name": "Линдуловская роща",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "gladyshevka",
+    "name": "Пороги реки Гладышевки",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "rakovye",
+    "name": "Раковые озёра",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "winter-war",
+    "name": "Маршрут «Память Зимней войны»",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "bear-forest",
+    "name": "Маршрут «Медвежий лес»",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "berezovye",
+    "name": "Берёзовые острова",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "castle",
+    "name": "Выборгский замок",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "clocktower",
+    "name": "Часовая башня",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "panzerlax",
+    "name": "Бастион Панцерлакс",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "olaf",
+    "name": "Башня Святого Олафа",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "townhalltower",
+    "name": "Башня Ратуши",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "roundtower",
+    "name": "Круглая башня",
+    "category": "history",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "knightshouse",
+    "name": "Рыцарский дом",
+    "category": "museum",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "yalkala",
+    "name": "Музей-заповедник «Ялкала»",
+    "category": "museum",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "oldtownsquare",
+    "name": "Площадь Старой Ратуши",
+    "category": "city",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "oldcathedral",
+    "name": "Старый кафедральный собор",
+    "category": "history",
+    "verification_status": "needs_primary_source"
+  },
+  {
+    "id": "monrepoeco",
+    "name": "Экомаршрут Монрепо",
+    "category": "nature",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "guildhouse",
+    "name": "Дом купеческой гильдии",
+    "category": "city",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "smallarsenal",
+    "name": "Малый Арсенал",
+    "category": "museum",
+    "verification_status": "verified_source"
+  },
+  {
+    "id": "lindulovskaya-oopt",
+    "name": "Заказник «Линдуловская роща»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "gladyshevsky-oopt",
+    "name": "Заказник «Гладышевский»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborgsky-oopt",
+    "name": "Заказник «Выборгский»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "rakovye-oopt",
+    "name": "Заказник «Раковые озёра»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "berezovye-oopt",
+    "name": "Заказник «Берёзовые острова»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "lammin-suo",
+    "name": "Болото Ламмин-Суо",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "gryada-vyaryamyanselkya",
+    "name": "Гряда Вярямянселькя",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "petyajarvi-trail",
+    "name": "Экотропа «Петяярви»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "kurgolovskaya-trail",
+    "name": "Курголовская этнотропа",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "toksovsky-oopt",
+    "name": "Заказник «Токсовский»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "koltushskie-vysoty",
+    "name": "Колтушские высоты",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "kivipark",
+    "name": "Кивипарк",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "ozero-melkovodnoe",
+    "name": "Озеро Мелководное",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "gromovo",
+    "name": "Громово и окрестности",
+    "category": "nature",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "sukhodolskoye",
+    "name": "Суходольское озеро",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "otradnoe-lake",
+    "name": "Озеро Отрадное",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "komsomolskoe-lake",
+    "name": "Комсомольское озеро",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "pravdinskoe-lake",
+    "name": "Правдинское озеро",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "glubokoe-lake",
+    "name": "Озеро Глубокое",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "krasnoe-lake",
+    "name": "Красное озеро",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "razdolinskoe-lake",
+    "name": "Раздолинское озеро",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "bolshoe-simaginskoe",
+    "name": "Большое Симагинское озеро",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "zelenogorsk-beach",
+    "name": "Зеленогорский пляж",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "komarovo-shore",
+    "name": "Побережье Комарово",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "repino-shore",
+    "name": "Побережье Репино",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "sestroretsky-razliv",
+    "name": "Озеро Сестрорецкий Разлив",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "dubki-park",
+    "name": "Парк «Дубки»",
+    "category": "nature",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "komarovsky-bereg",
+    "name": "Памятник природы «Комаровский берег»",
+    "category": "nature",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "shchuchye-lake",
+    "name": "Озеро Щучье",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "chernye-ozera",
+    "name": "Чёрные озёра",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "vyborg-castle-island",
+    "name": "Замковый остров",
+    "category": "history",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-main-museum",
+    "name": "Главный музейный корпус Выборгского замка",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-arsenal",
+    "name": "Большой Арсенал Выборгского замка",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-governor-house",
+    "name": "Дом Наместника",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-zeughaus",
+    "name": "Цейхгауз",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-pottery",
+    "name": "Гончарная мастерская Выборгского замка",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-printing",
+    "name": "Печатная мастерская Выборгского замка",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "nature-isthmus-exhibition",
+    "name": "Экспозиция «Природа Карельского перешейка»",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "vyborg-ww2-exhibition",
+    "name": "Экспозиция «Выборг в годы Второй мировой войны»",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "market-square-vyborg",
+    "name": "Рыночная площадь Выборга",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "red-square-vyborg",
+    "name": "Красная площадь Выборга",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "esplanade-vyborg",
+    "name": "Парк Эспланада",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "lenin-park-vyborg",
+    "name": "Парк имени Ленина",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "hermitage-vyborg",
+    "name": "Эрмитаж-Выборг",
+    "category": "museum",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "pietinen-house",
+    "name": "Дом Пиетинена",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "hakman-house",
+    "name": "Дом Хакмана",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "granite-palace",
+    "name": "Гранитный дворец",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "hyacinth-church",
+    "name": "Костёл Святого Гиацинта",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "transfiguration-cathedral",
+    "name": "Спасо-Преображенский собор",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "peter-paul-vyborg",
+    "name": "Собор Святых Петра и Павла",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "anninskie-fortifications",
+    "name": "Аннинские укрепления",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "east-vyborg-fortifications",
+    "name": "Восточно-Выборгские укрепления",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "batareynaya-mountain",
+    "name": "Батарейная гора",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "singing-field-vyborg",
+    "name": "Певческое поле",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "monrepo-neptune",
+    "name": "Храм Нептуна в Монрепо",
+    "category": "history",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "monrepo-ludwigsburg",
+    "name": "Капелла Людвигсбург",
+    "category": "history",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "monrepo-tea-arbor",
+    "name": "Чайная беседка Монрепо",
+    "category": "city",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "monrepo-narcissus",
+    "name": "Источник «Нарцисс»",
+    "category": "nature",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "monrepo-paulstein",
+    "name": "Обелиск братьям Броглио",
+    "category": "history",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "korela-round-tower",
+    "name": "Круглая башня крепости Корела",
+    "category": "history",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "korela-old-arsenal",
+    "name": "Старый арсенал крепости Корела",
+    "category": "museum",
+    "verification_status": "needs_details"
+  },
+  {
+    "id": "prionezhsky-square",
+    "name": "Центральная площадь Приозерска",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "all-saints-priozersk",
+    "name": "Церковь Всех Святых",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "nativity-priozersk",
+    "name": "Собор Рождества Пресвятой Богородицы",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "lutheran-priozersk",
+    "name": "Лютеранская кирха Приозерска",
+    "category": "history",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "stone-island-priozersk",
+    "name": "Каменный остров Приозерска",
+    "category": "nature",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "losevo-bridge",
+    "name": "Мост через Вуоксу в Лосево",
+    "category": "city",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "losevo-water-route",
+    "name": "Водный маршрут Лосево",
+    "category": "water",
+    "verification_status": "candidate"
+  },
+  {
+    "id": "primorsk-kirkha",
+    "name": "Кирха Святой Марии Магдалины",
+    "category": "history",
+    "verification_status": "candidate"
+  }
+]
