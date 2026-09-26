@@ -111,13 +111,23 @@
     "id": "castle",
     "name": "Выборгский замок",
     "category": "history",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "source_url": "https://vyborgmuseum.org/",
+    "source_kind": "official",
+    "public_transport": true,
+    "nearest_station": "Выборг",
+    "opening_hours_note": "9:00–20:00 (проверено 2026-09-26)",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "clocktower",
     "name": "Часовая башня",
     "category": "history",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "source_url": "https://vyborgmuseum.org/",
+    "source_kind": "official",
+    "opening_hours_note": "Сб–Вс 10:30–17:30 (проверено 2026-09-26)",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "panzerlax",
@@ -129,13 +139,22 @@
     "id": "olaf",
     "name": "Башня Святого Олафа",
     "category": "history",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "source_url": "https://vyborgmuseum.org/",
+    "source_kind": "official",
+    "opening_hours_note": "Вход с 9:15, выход до 20:15; билеты до 19:45 (проверено 2026-09-26)",
+    "restrictions": "Дети младше 16 лет только с сопровождающими; организованные детские группы не принимаются.",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "townhalltower",
     "name": "Башня Ратуши",
     "category": "history",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "source_url": "https://vyborgmuseum.org/",
+    "source_kind": "official",
+    "opening_hours_note": "Ср–Вс 10:00–18:00 (проверено 2026-09-26)",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "roundtower",
@@ -147,7 +166,11 @@
     "id": "knightshouse",
     "name": "Рыцарский дом",
     "category": "museum",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "source_url": "https://vyborgmuseum.org/",
+    "source_kind": "official",
+    "opening_hours_note": "Ежедневно 10:00–18:00 (проверено 2026-09-26)",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "yalkala",
@@ -351,13 +374,23 @@
     "id": "komarovsky-bereg",
     "name": "Памятник природы «Комаровский берег»",
     "category": "nature",
-    "verification_status": "candidate"
+    "verification_status": "verified_source",
+    "source_url": "https://oopt.kpoos.gov.spb.ru/",
+    "source_kind": "official",
+    "activity_type": "hiking",
+    "route_note": "Связан с заказником «Озеро Щучье» межрегиональной «Озерной тропой».",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "shchuchye-lake",
     "name": "Озеро Щучье",
     "category": "water",
-    "verification_status": "candidate"
+    "verification_status": "verified_source",
+    "source_url": "https://oopt.kpoos.gov.spb.ru/protected_area/ozero-schuchje/",
+    "source_kind": "official",
+    "activity_type": "hiking",
+    "route_note": "Участок межрегиональной «Озерной тропы» связывает заказник с Комаровским берегом; городской участок 14 км.",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "chernye-ozera",
@@ -369,7 +402,11 @@
     "id": "vyborg-castle-island",
     "name": "Замковый остров",
     "category": "history",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "source_url": "https://vyborgmuseum.org/",
+    "source_kind": "official",
+    "opening_hours_note": "Замковый остров ежедневно 9:00–20:00, выход до 20:30; вход платный (проверено 2026-09-26)",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "vyborg-main-museum",
