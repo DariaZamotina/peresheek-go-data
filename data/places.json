@@ -3,7 +3,21 @@
     "id": "yastreb",
     "name": "Озеро Ястребиное",
     "category": "nature",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 61.145854,
+    "lon": 29.701807,
+    "activity_type": "hiking",
+    "distance_km": 8,
+    "duration_minutes": 120,
+    "seasonality": "warm_season",
+    "public_transport": true,
+    "nearest_station": "Кузнечное",
+    "last_mile_km": 12,
+    "access_class": "public_transport_long_walk",
+    "access_notes": "Электричка с Финляндского вокзала до Кузнечного, далее около 12 км пешком по лесной дороге.",
+    "source_url": "https://ooptlo.ru/tropa-ozero-yastrebinoe.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "monrepo",
@@ -75,37 +89,111 @@
     "id": "lindulovskaya",
     "name": "Линдуловская роща",
     "category": "nature",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 60.242158,
+    "lon": 29.540576,
+    "activity_type": "hiking",
+    "distance_km": 5.5,
+    "duration_minutes": 90,
+    "seasonality": "all_year",
+    "access_class": "road_and_walk",
+    "access_notes": "Начало маршрута к юго-западу от Рощино; к тропе можно пройти по Линдуловской дороге.",
+    "source_url": "https://ooptlo.ru/ecolindulovskaya-roshha.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "gladyshevka",
     "name": "Пороги реки Гладышевки",
     "category": "nature",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 60.241949,
+    "lon": 29.426192,
+    "activity_type": "hiking",
+    "distance_km": 11,
+    "duration_minutes": 150,
+    "seasonality": "may_october",
+    "public_transport": true,
+    "nearest_station": "Горьковское",
+    "last_mile_km": 5.7,
+    "access_class": "public_transport_plus_taxi",
+    "access_notes": "От платформы Горьковское до начала тропы около 5,7 км; официальный источник рекомендует такси. Возможен подъезд через Зеленогорск и автобусы 283/283А к промежуточным точкам.",
+    "source_url": "https://dev.ooptlo.ru/eco-gladyishevskij.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "rakovye",
     "name": "Раковые озёра",
     "category": "nature",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 60.609019,
+    "lon": 29.346843,
+    "activity_type": "hiking",
+    "distance_km": 8.3,
+    "duration_minutes": 120,
+    "seasonality": "closed_apr01_jul15",
+    "access_class": "road_to_gribnoe",
+    "access_notes": "Начало за посёлком Грибное, территория Охотничье, у шлагбаума.",
+    "restrictions": "Комфортное посещение круглогодично, кроме периода 1 апреля–15 июля. Посещение экомаршрута платное; тариф проверять перед поездкой.",
+    "source_url": "https://dev.ooptlo.ru/rakovyie-ozyora.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "winter-war",
     "name": "Маршрут «Память Зимней войны»",
     "category": "history",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 60.603305,
+    "lon": 29.351191,
+    "activity_type": "hiking_history",
+    "distance_km": 1.9,
+    "duration_minutes": 30,
+    "seasonality": "mainly_summer",
+    "access_class": "road_to_gribnoe",
+    "access_notes": "Старт у парковки в районе пос. Грибное.",
+    "restrictions": "Летом встречаются гадюки. Посещение экомаршрута платное; тариф проверять перед поездкой.",
+    "source_url": "https://ooptlo.ru/istoricheskij-marshrut-v-zakaznike-rakovyie-ozyora.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "bear-forest",
     "name": "Маршрут «Медвежий лес»",
     "category": "nature",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 60.980622,
+    "lon": 28.722958,
+    "activity_type": "hiking_cycling",
+    "distance_km": 18.6,
+    "duration_minutes": 240,
+    "seasonality": "all_year_warm_recommended",
+    "public_transport": false,
+    "last_mile_km": 8,
+    "access_class": "car_recommended",
+    "access_notes": "Официальный источник указывает автомобильный доступ; старт в 8 км от пос. Дружноселье.",
+    "restrictions": "Территория прилегает к государственной границе; действует пограничный режим.",
+    "source_url": "https://ooptlo.ru/medvezhij-les.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "berezovye",
     "name": "Берёзовые острова",
     "category": "nature",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "lat": 60.299008,
+    "lon": 28.686098,
+    "activity_type": "hiking",
+    "distance_km": 9.5,
+    "duration_minutes": 120,
+    "seasonality": "mainly_summer",
+    "access_class": "water_access_required",
+    "access_notes": "Маршрут расположен на Большом Берёзовом острове; требуется отдельно проверять водную логистику.",
+    "source_url": "https://dev.ooptlo.ru/berezovyie-ostrova-tropa.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "castle",
@@ -206,7 +294,11 @@
     "id": "smallarsenal",
     "name": "Малый Арсенал",
     "category": "museum",
-    "verification_status": "verified_source"
+    "verification_status": "verified_source",
+    "opening_hours_note": "Ежедневно 10:00–18:00 (проверено 2026-09-26)",
+    "source_url": "https://vyborgmuseum.org/arsenaly",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "lindulovskaya-oopt",
@@ -248,13 +340,32 @@
     "id": "gryada-vyaryamyanselkya",
     "name": "Гряда Вярямянселькя",
     "category": "nature",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "activity_type": "nature_area_cycling",
+    "access_class": "multiple_routes",
+    "access_notes": "На территории оборудованы маршруты Петяярви 11 км, Озеро Светлое 10,7 км и Озеро Берестовое 12,4 км.",
+    "source_url": "https://ooptlo.ru/gryada-vyaryamyanselkya.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "petyajarvi-trail",
     "name": "Экотропа «Петяярви»",
     "category": "nature",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "lat": 60.630712,
+    "lon": 30.121428,
+    "activity_type": "cycling",
+    "distance_km": 11,
+    "duration_minutes": 150,
+    "seasonality": "mainly_summer",
+    "public_transport": true,
+    "nearest_station": "Петяярви",
+    "access_class": "rail_adjacent",
+    "access_notes": "Начало маршрута у ж/д станции Петяярви.",
+    "source_url": "https://ooptlo.ru/gryada-vyaryamyanselskaya-%28malyij-marshrut%29.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "kurgolovskaya-trail",
@@ -272,7 +383,13 @@
     "id": "koltushskie-vysoty",
     "name": "Колтушские высоты",
     "category": "nature",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "activity_type": "hiking_cycling",
+    "access_class": "trail_network",
+    "access_notes": "На территории есть пешеходно-лыжный маршрут «Камовые холмы» 3,8 км и веломаршрут около 5,6 км.",
+    "source_url": "https://www.ooptlo.ru/novyij-velomarshrut-oficzialno-otkryilsya-na-koltushskix-vyisotax.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "kivipark",
@@ -418,19 +535,31 @@
     "id": "vyborg-arsenal",
     "name": "Большой Арсенал Выборгского замка",
     "category": "museum",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "opening_hours_note": "Ср–Вс 10:00–18:00; Пн–Вт выходной (проверено 2026-09-26)",
+    "source_url": "https://vyborgmuseum.org/arsenaly",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "vyborg-governor-house",
     "name": "Дом Наместника",
     "category": "museum",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "opening_hours_note": "Вт–Вс 10:00–18:00; Пн выходной (проверено 2026-09-26)",
+    "source_url": "https://vyborgmuseum.org/dom-namestnika",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "vyborg-zeughaus",
     "name": "Цейхгауз",
     "category": "museum",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "opening_hours_note": "Вт–Вс 10:00–18:00; Пн выходной (проверено 2026-09-26)",
+    "source_url": "https://vyborgmuseum.org/cejhgauz",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "vyborg-pottery",
@@ -562,7 +691,12 @@
     "id": "monrepo-tea-arbor",
     "name": "Чайная беседка Монрепо",
     "category": "city",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "activity_type": "park_landmark",
+    "description": "Видовая точка парка Монрепо; современная беседка восстановлена в 2002 году на историческом фундаменте.",
+    "source_url": "https://monreposmuseum.ru/obekty-parka/chajnaya-besedka/",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "monrepo-narcissus",
