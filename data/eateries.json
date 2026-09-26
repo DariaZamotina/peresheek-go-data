@@ -194,6 +194,83 @@
       "source_url": "https://www.tripadvisor.ru/Restaurants-g2345504-Losevo_Leningrad_Oblast_Northwestern_District.html",
       "source_kind": "third_party_listing",
       "verification_status": "listed_needs_primary_source"
+    },
+    {
+      "id": "priozersk-vodoley",
+      "name": "Водолей",
+      "locality": "Приозерск",
+      "cluster": "rail-priozersk",
+      "type": "cafe",
+      "cuisine": [
+        "home_cooking",
+        "bakery"
+      ],
+      "address": "ул. Чапаева, 37",
+      "hours_note": "Ежедневно 09:00–22:00",
+      "source_url": "https://cafe-priozersk.ru/",
+      "source_kind": "official_venue",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "komarovo-mustang",
+      "name": "Мустанг / KomArovoFood",
+      "locality": "Комарово",
+      "cluster": "rail-komarovo",
+      "type": "cafe",
+      "cuisine": [
+        "author"
+      ],
+      "address": "ул. Отдыха, 4",
+      "area_note": "при конном клубе, рядом с природным маршрутом Комарово",
+      "source_url": "https://kskkomarovo.ru/cafe",
+      "source_kind": "official_venue",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "roshchino-list",
+      "name": "Лист",
+      "locality": "Рощино",
+      "cluster": "rail-roshchino",
+      "type": "restaurant",
+      "cuisine": [],
+      "address": "Пионерская ул., 72",
+      "hours_note": "Ежедневно 11:00–22:00",
+      "source_url": "https://list-rest.ru/",
+      "source_kind": "official_venue",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "roshchino-shishkin",
+      "name": "SHISHKIN",
+      "locality": "Рощино",
+      "cluster": "rail-roshchino",
+      "type": "restaurant",
+      "cuisine": [
+        "russian",
+        "italian",
+        "japanese",
+        "grill"
+      ],
+      "address": "ул. Первомайская, 1",
+      "hours_note": "Вс–Чт 09:00–21:00; Пт–Сб 09:00–22:00",
+      "source_url": "https://z-k.su/village/shishkin/",
+      "source_kind": "official_venue",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "roshchino-raivola",
+      "name": "Столовая «Райвола»",
+      "locality": "Рощино",
+      "cluster": "rail-roshchino",
+      "type": "canteen",
+      "cuisine": [
+        "home_cooking",
+        "vegetarian_options"
+      ],
+      "address": "ул. Песочная, 1",
+      "source_url": "https://www.raivola-spb.ru/food",
+      "source_kind": "official_venue",
+      "verification_status": "verified_source"
     }
   ]
 }
