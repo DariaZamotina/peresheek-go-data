@@ -1,0 +1,130 @@
+{
+  "version": "0.3",
+  "verified_at": "2026-09-26",
+  "records": [
+    {
+      "id": "lindulovskaya",
+      "lat": 60.242158,
+      "lon": 29.540576,
+      "activity_type": "hiking",
+      "distance_km": 5.5,
+      "duration_minutes": 90,
+      "seasonality": "all_year",
+      "source_url": "https://ooptlo.ru/ecolindulovskaya-roshha.html",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "rakovye",
+      "activity_type": "hiking",
+      "distance_km": 8.3,
+      "duration_minutes": 120,
+      "source_url": "https://ooptlo.ru/rakovyie-ozera.html",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "petyajarvi-trail",
+      "lat": 60.630712,
+      "lon": 30.121428,
+      "activity_type": "cycling",
+      "distance_km": 11,
+      "duration_minutes": 150,
+      "seasonality": "mainly_summer",
+      "terrain": "forest dirt roads; strongly rolling terrain",
+      "source_url": "https://ooptlo.ru/gryada-vyaryamyanselskaya-%28malyij-marshrut%29.html",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "gryada-vyaryamyanselkya",
+      "municipality": "Приозерский район",
+      "area_ha": 7613.5,
+      "protected_area_since": 1976,
+      "source_url": "https://ooptlo.ru/gryada-vyaryamyanselkya.html",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "olaf",
+      "opening_hours_note": "Пн–Вс; актуальные часы проверять перед визитом",
+      "access_notes": "Количество билетов на подъём ограничено.",
+      "source_url": "https://vyborgmuseum.org/chasy-raboty-2",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "townhalltower",
+      "address": "Выборг, Выборгская ул., 13А",
+      "age_note": "12+",
+      "opening_hours_note": "Пн–Вт выходной; Ср–Вс 10:00–18:00 по состоянию на дату проверки",
+      "source_url": "https://vyborgmuseum.org/bashnja-ratushi",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "clocktower",
+      "address": "Выборг, Крепостная ул., 5",
+      "age_note": "12+",
+      "opening_hours_note": "Сб–Вс 10:30–17:30 по состоянию на дату проверки",
+      "source_url": "https://vyborgmuseum.org/chasy-raboty-2",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "knightshouse",
+      "address": "Выборг, ул. Водной Заставы, 4",
+      "opening_hours_note": "Ежедневно 10:00–18:00 по состоянию на дату проверки",
+      "source_url": "https://vyborgmuseum.org/rycarskij-dom",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "yalkala",
+      "address": "Выборгский район, пос. Ильичёво, ул. Сельская, 4",
+      "opening_hours_note": "Пн–Вт выходной; остальные дни 10:00–18:00 по состоянию на дату проверки",
+      "source_url": "https://vyborgmuseum.org/chasy-raboty-2",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "korela",
+      "access_notes": "Сейчас доступны внутреннее каре крепости и Новый арсенал; Старый арсенал и Круглая башня временно закрыты, внешний периметр частично ограничен.",
+      "source_url": "https://vyborgmuseum.org/krepost-korela",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "korela-round-tower",
+      "access_notes": "Временно закрыта для посещения по состоянию на дату проверки.",
+      "source_url": "https://vyborgmuseum.org/krepost-korela",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "korela-old-arsenal",
+      "access_notes": "Временно закрыт для посещения по состоянию на дату проверки.",
+      "source_url": "https://vyborgmuseum.org/krepost-korela",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "monrepo-neptune",
+      "source_url": "https://monreposmuseum.ru/obekty-parka/hram-neptuna/",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "monrepo-narcissus",
+      "source_url": "https://monreposmuseum.ru/obekty-parka/istochnik-narcziss/",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    },
+    {
+      "id": "monrepo-ludwigsburg",
+      "source_url": "https://monreposmuseum.ru/istoriya-monrepo/",
+      "source_kind": "official",
+      "verification_status": "verified_source"
+    }
+  ]
+}
