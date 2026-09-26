@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "updated_at": "2026-09-26",
-  "methodology": "Seed food layer for itinerary planning. Prefer official tourism/venue sources. Third-party listings are marked accordingly. Opening hours and prices are volatile and must be rechecked before use.",
+  "methodology": "Food layer for itinerary planning. Coordinates are added only when a reliable map/address point is found. Geometry-aware ranking uses coordinates when present and falls back to transport cluster otherwise.",
   "eateries": [
     {
       "id": "vyborg-medieval-tavern",
@@ -237,7 +237,11 @@
       "hours_note": "Ежедневно 11:00–22:00",
       "source_url": "https://list-rest.ru/",
       "source_kind": "official_venue",
-      "verification_status": "verified_source"
+      "verification_status": "verified_source",
+      "lat": 60.265893,
+      "lon": 29.622638,
+      "coordinate_source_url": "https://yandex.com/maps/10174/saint-petersburg-and-leningrad-oblast/house/ZkAYcAViT0YPQFhqfX53dHRqZw%3D%3D/",
+      "coordinate_verification_status": "verified_address_point"
     },
     {
       "id": "roshchino-shishkin",
