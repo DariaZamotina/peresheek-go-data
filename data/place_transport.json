@@ -1,0 +1,807 @@
+{
+  "version": "0.1",
+  "updated_at": "2026-09-26",
+  "methodology": "Every catalog place has a transport record. Existing verified links are preserved; city/locality cluster assignments are marked for distance verification; unresolved nature/water destinations remain unknown rather than guessed.",
+  "links": [
+    {
+      "place_id": "yastreb",
+      "node_id": "rail-kuznechnoe",
+      "last_mile_mode": "walk",
+      "last_mile_km": 12,
+      "access_class": "public_transport_long_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "monrepo",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "korela",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "losevo",
+      "node_id": "rail-losevo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "needs_distance"
+    },
+    {
+      "place_id": "line",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "aaltolib",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "primorsk",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "zelenogorsk",
+      "node_id": "rail-zelenogorsk",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "vuoksa",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "toksovo",
+      "node_id": "rail-kavgolovo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "needs_distance"
+    },
+    {
+      "place_id": "sestroretsk",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "lindulovskaya",
+      "node_id": "rail-roshchino",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "needs_distance"
+    },
+    {
+      "place_id": "gladyshevka",
+      "node_id": "rail-gorkovskoe",
+      "last_mile_mode": "taxi_or_walk",
+      "last_mile_km": 5.7,
+      "access_class": "public_transport_plus_taxi",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "rakovye",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "winter-war",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "bear-forest",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "berezovye",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "castle",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "clocktower",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "panzerlax",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "olaf",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "townhalltower",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "roundtower",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "knightshouse",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "yalkala",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "oldtownsquare",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "oldcathedral",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "monrepoeco",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "guildhouse",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "smallarsenal",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "lindulovskaya-oopt",
+      "node_id": "rail-roshchino",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "needs_distance"
+    },
+    {
+      "place_id": "gladyshevsky-oopt",
+      "node_id": "rail-gorkovskoe",
+      "last_mile_mode": "taxi_or_walk",
+      "last_mile_km": null,
+      "access_class": "public_transport_plus_taxi",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "vyborgsky-oopt",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "rakovye-oopt",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "berezovye-oopt",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "lammin-suo",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "gryada-vyaryamyanselkya",
+      "node_id": "rail-petyajarvi",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_adjacent",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "petyajarvi-trail",
+      "node_id": "rail-petyajarvi",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_adjacent",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "kurgolovskaya-trail",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "toksovsky-oopt",
+      "node_id": "rail-toksovo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "koltushskie-vysoty",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "kivipark",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "ozero-melkovodnoe",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "gromovo",
+      "node_id": "rail-gromovo",
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "rail_adjacent",
+      "verification_status": "needs_details"
+    },
+    {
+      "place_id": "sukhodolskoye",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "otradnoe-lake",
+      "node_id": "rail-otradnoe",
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "needs_details"
+    },
+    {
+      "place_id": "komsomolskoe-lake",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "pravdinskoe-lake",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "glubokoe-lake",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "krasnoe-lake",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "razdolinskoe-lake",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "bolshoe-simaginskoe",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "zelenogorsk-beach",
+      "node_id": "rail-zelenogorsk",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "komarovo-shore",
+      "node_id": "rail-komarovo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "repino-shore",
+      "node_id": "rail-repino",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_or_bus_plus_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "sestroretsky-razliv",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "dubki-park",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "komarovsky-bereg",
+      "node_id": "rail-komarovo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "shchuchye-lake",
+      "node_id": "rail-zelenogorsk",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "chernye-ozera",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "vyborg-castle-island",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "vyborg-main-museum",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "vyborg-arsenal",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "vyborg-governor-house",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "vyborg-zeughaus",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "vyborg-pottery",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "vyborg-printing",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "nature-isthmus-exhibition",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    },
+    {
+      "place_id": "vyborg-ww2-exhibition",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "market-square-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "red-square-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "esplanade-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "lenin-park-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "hermitage-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "pietinen-house",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "hakman-house",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "granite-palace",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "hyacinth-church",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "transfiguration-cathedral",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "peter-paul-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "anninskie-fortifications",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "east-vyborg-fortifications",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "batareynaya-mountain",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "singing-field-vyborg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "monrepo-neptune",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "monrepo-ludwigsburg",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "monrepo-tea-arbor",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "monrepo-narcissus",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "monrepo-paulstein",
+      "node_id": "rail-vyborg",
+      "last_mile_mode": "local_transport_or_taxi",
+      "last_mile_km": null,
+      "access_class": "rail_plus_local_transport",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "korela-round-tower",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "korela-old-arsenal",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "prionezhsky-square",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "all-saints-priozersk",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "nativity-priozersk",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "lutheran-priozersk",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_city",
+      "last_mile_km": null,
+      "access_class": "rail_plus_city_walk",
+      "verification_status": "verified_or_existing"
+    },
+    {
+      "place_id": "stone-island-priozersk",
+      "node_id": "rail-priozersk",
+      "last_mile_mode": "walk_or_local_transport",
+      "last_mile_km": null,
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "cluster_assignment_needs_distance"
+    },
+    {
+      "place_id": "losevo-bridge",
+      "node_id": "rail-losevo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "needs_distance"
+    },
+    {
+      "place_id": "losevo-water-route",
+      "node_id": "rail-losevo",
+      "last_mile_mode": "walk",
+      "last_mile_km": null,
+      "access_class": "rail_plus_walk",
+      "verification_status": "needs_distance"
+    },
+    {
+      "place_id": "primorsk-kirkha",
+      "node_id": null,
+      "last_mile_mode": "unknown",
+      "last_mile_km": null,
+      "access_class": "unknown",
+      "verification_status": "needs_transport_research"
+    }
+  ]
+}
