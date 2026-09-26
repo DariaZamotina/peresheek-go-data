@@ -8,63 +8,132 @@
       "name": "Выборг",
       "type": "rail_station",
       "locality": "Выборг",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_vyborg"
     },
     {
       "id": "rail-priozersk",
       "name": "Приозерск",
       "type": "rail_station",
       "locality": "Приозерск",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe"
     },
     {
       "id": "rail-toksovo",
       "name": "Токсово",
       "type": "rail_station",
       "locality": "Токсово",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe"
     },
     {
       "id": "rail-kuznechnoe",
       "name": "Кузнечное",
       "type": "rail_station",
       "locality": "Кузнечное",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe"
     },
     {
       "id": "rail-petyajarvi",
       "name": "Петяярви",
       "type": "rail_station",
       "locality": "Петяярви",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe"
     },
     {
       "id": "rail-gorkovskoe",
       "name": "Горьковское",
       "type": "rail_station",
       "locality": "Горьковское",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe"
     },
     {
       "id": "rail-repino",
       "name": "Репино",
       "type": "rail_station",
       "locality": "Репино",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_vyborg"
     },
     {
       "id": "rail-komarovo",
       "name": "Комарово",
       "type": "rail_station",
       "locality": "Комарово",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_vyborg"
     },
     {
       "id": "rail-zelenogorsk",
       "name": "Зеленогорск",
       "type": "rail_station",
       "locality": "Зеленогорск",
-      "mode": "suburban_rail"
+      "mode": "suburban_rail",
+      "corridor": "spb_vyborg"
+    },
+    {
+      "id": "rail-roshchino",
+      "name": "Рощино",
+      "type": "rail_station",
+      "locality": "Рощино",
+      "mode": "suburban_rail",
+      "corridor": "spb_vyborg",
+      "source_url": "https://ppk-piter.ru/press_center/news/134376/",
+      "source_kind": "rail_operator",
+      "last_verified": "2026-09-26"
+    },
+    {
+      "id": "rail-kavgolovo",
+      "name": "Кавголово",
+      "type": "rail_station",
+      "locality": "Токсово",
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe",
+      "source_url": "https://ppk-piter.ru/press_center/news/128829/",
+      "source_kind": "rail_operator",
+      "last_verified": "2026-09-26"
+    },
+    {
+      "id": "rail-sosnovo",
+      "name": "Сосново",
+      "type": "rail_station",
+      "locality": "Сосново",
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe",
+      "source_url": "https://ppk-piter.ru/press_center/news/133512/",
+      "source_kind": "rail_operator",
+      "last_verified": "2026-09-26"
+    },
+    {
+      "id": "rail-gromovo",
+      "name": "Громово",
+      "type": "rail_station",
+      "locality": "Громово",
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe",
+      "verification_status": "needs_operator_confirmation"
+    },
+    {
+      "id": "rail-losevo",
+      "name": "Лосево",
+      "type": "rail_station",
+      "locality": "Лосево",
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe",
+      "verification_status": "needs_operator_confirmation"
+    },
+    {
+      "id": "rail-otradnoe",
+      "name": "Отрадное",
+      "type": "rail_station",
+      "locality": "Плодовое",
+      "mode": "suburban_rail",
+      "corridor": "spb_kuznechnoe",
+      "verification_status": "needs_operator_confirmation"
     }
   ],
   "links": [
@@ -169,6 +238,63 @@
       ],
       "last_mile_mode": "walk_or_local_transport",
       "access_class": "rail_plus_last_mile"
+    },
+    {
+      "node_id": "rail-roshchino",
+      "place_ids": [
+        "lindulovskaya",
+        "lindulovskaya-oopt"
+      ],
+      "last_mile_mode": "walk_or_local_transport",
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "needs_distance"
+    },
+    {
+      "node_id": "rail-kavgolovo",
+      "place_ids": [
+        "toksovo"
+      ],
+      "last_mile_mode": "walk",
+      "access_class": "rail_plus_walk",
+      "verification_status": "needs_distance"
+    },
+    {
+      "node_id": "rail-gromovo",
+      "place_ids": [
+        "gromovo"
+      ],
+      "last_mile_mode": "unknown",
+      "access_class": "rail_adjacent",
+      "verification_status": "needs_details"
+    },
+    {
+      "node_id": "rail-losevo",
+      "place_ids": [
+        "losevo",
+        "losevo-bridge",
+        "losevo-water-route"
+      ],
+      "last_mile_mode": "walk",
+      "access_class": "rail_plus_walk",
+      "verification_status": "needs_distance"
+    },
+    {
+      "node_id": "rail-otradnoe",
+      "place_ids": [
+        "otradnoe-lake"
+      ],
+      "last_mile_mode": "unknown",
+      "access_class": "rail_plus_last_mile",
+      "verification_status": "needs_details"
     }
-  ]
+  ],
+  "methodology": {
+    "stable_network_only": true,
+    "live_timetables_stored": false,
+    "unknown_last_mile": "Keep null/unknown until verified; do not estimate.",
+    "corridors": {
+      "spb_vyborg": "Санкт-Петербург — Зеленогорск — Выборг",
+      "spb_kuznechnoe": "Санкт-Петербург — Сосново — Кузнечное"
+    }
+  }
 }
