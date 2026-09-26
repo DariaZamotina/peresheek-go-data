@@ -316,7 +316,17 @@
     "id": "vyborgsky-oopt",
     "name": "Заказник «Выборгский»",
     "category": "nature",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "activity_type": "protected_area_hiking_cycling",
+    "access_class": "public_transport_long_walk",
+    "access_notes": "На территории заказника маршрут «Мыс Киперорт»: 19 км, около 4 ч. Можно автобусом/электричкой, но остаётся длинный пеший участок.",
+    "route_start_lat": 60.48018,
+    "route_start_lon": 28.54367,
+    "route_distance_km": 19,
+    "route_duration_minutes": 240,
+    "source_url": "https://ooptlo.ru/myis-kiperort.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "rakovye-oopt",
@@ -334,7 +344,15 @@
     "id": "lammin-suo",
     "name": "Болото Ламмин-Суо",
     "category": "nature",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "municipality": "Выборгский район",
+    "activity_type": "protected_wetland",
+    "access_class": "restricted_seasonal",
+    "restrictions": "Экотропа непосредственно на болоте работает только в снежное время года; в остальные периоды посещение этой тропы запрещено из-за работы болотной станции.",
+    "access_notes": "Заказник расположен примерно в 7 км к северо-востоку от Зеленогорска и в 3 км к юго-востоку от Ильичёво.",
+    "source_url": "https://ooptlo.ru/pdf_prav_act/boloto-lammin-suo/N%20367%20Boloto%20Lammin-Suo.pdf",
+    "source_kind": "official_regulation",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "gryada-vyaryamyanselkya",
@@ -377,7 +395,17 @@
     "id": "toksovsky-oopt",
     "name": "Заказник «Токсовский»",
     "category": "nature",
-    "verification_status": "needs_details"
+    "verification_status": "verified_source",
+    "activity_type": "protected_area_hiking_skiing",
+    "route_start_lat": 60.161705,
+    "route_start_lon": 30.492562,
+    "route_distance_km": 2.3,
+    "route_duration_minutes": 30,
+    "seasonality": "may_october_or_ski_december_march",
+    "route_note": "Экотропа «Малиновая гора».",
+    "source_url": "https://www.ooptlo.ru/ekomarshrut-malinovaya-gora.html",
+    "source_kind": "official",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "koltushskie-vysoty",
@@ -455,7 +483,12 @@
     "id": "bolshoe-simaginskoe",
     "name": "Большое Симагинское озеро",
     "category": "water",
-    "verification_status": "candidate"
+    "verification_status": "verified_source",
+    "activity_type": "lake_nature",
+    "source_url": "https://dev.ooptlo.ru/ozernaya-tropa.html",
+    "source_kind": "official",
+    "route_note": "Озеро входит в природные точки межрегионального маршрута «Озёрная».",
+    "last_verified": "2026-09-26"
   },
   {
     "id": "zelenogorsk-beach",
@@ -693,7 +726,7 @@
     "category": "city",
     "verification_status": "verified_source",
     "activity_type": "park_landmark",
-    "description": "Видовая точка парка Монрепо; современная беседка восстановлена в 2002 году на историческом фундаменте.",
+    "description": "Видовая точка парка; восьмигранная Чайная беседка восстановлена в 2002 году на историческом фундаменте.",
     "source_url": "https://monreposmuseum.ru/obekty-parka/chajnaya-besedka/",
     "source_kind": "official",
     "last_verified": "2026-09-26"
