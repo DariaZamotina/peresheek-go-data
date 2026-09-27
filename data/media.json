@@ -4,7 +4,8 @@
   "policy": {
     "description": "Official media sources for Peresheek.GO place cards. Image files are not copied into the repository until reuse rights are verified.",
     "default_usage_status": "link_only_pending_rights_check",
-    "preferred_source_kind": "official"
+    "preferred_source_kind": "official",
+    "direct_image_note": "Direct image URLs are source-site assets; verify hotlink reliability and reuse permission before production."
   },
   "places": [
     {
@@ -14,8 +15,12 @@
       "photo_count": 24,
       "source_kind": "official",
       "usage_status": "link_only_pending_rights_check",
-      "cover_image_url": null,
-      "gallery_image_urls": [],
+      "cover_image_url": "https://ooptlo.ru/assets/images/resources/142/dsc-7148.jpg",
+      "gallery_image_urls": [
+        "https://ooptlo.ru/assets/images/resources/142/dsc-7148.jpg",
+        "https://ooptlo.ru/assets/images/resources/142/dsc-7151.jpg",
+        "https://ooptlo.ru/assets/images/resources/142/dsc-7170.jpg"
+      ],
       "authors": [],
       "last_verified": "2026-09-27"
     },
@@ -26,9 +31,18 @@
       "photo_count": 21,
       "source_kind": "official",
       "usage_status": "link_only_pending_rights_check",
-      "cover_image_url": null,
-      "gallery_image_urls": [],
-      "authors": [],
+      "cover_image_url": "https://ooptlo.ru/assets/images/resources/184/kuzneczov-s55.gif",
+      "gallery_image_urls": [
+        "https://ooptlo.ru/assets/images/resources/184/kuzneczov-s55.gif",
+        "https://ooptlo.ru/assets/images/resources/184/kuzneczov-s77.gif",
+        "https://ooptlo.ru/assets/images/resources/184/kuzneczov-s333.gif"
+      ],
+      "authors": [
+        {
+          "name": "S. Kuznetsov",
+          "status": "inferred_from_filename"
+        }
+      ],
       "last_verified": "2026-09-27"
     },
     {
@@ -38,9 +52,18 @@
       "photo_count": 22,
       "source_kind": "official",
       "usage_status": "link_only_pending_rights_check",
-      "cover_image_url": null,
-      "gallery_image_urls": [],
-      "authors": [],
+      "cover_image_url": "https://ooptlo.ru/assets/images/resources/166/nik-2463-olga-potapova.jpg",
+      "gallery_image_urls": [
+        "https://ooptlo.ru/assets/images/resources/166/nik-2463-olga-potapova.jpg",
+        "https://ooptlo.ru/assets/images/resources/166/dsc-6646.jpg",
+        "https://ooptlo.ru/assets/images/resources/166/dsc-6683.jpg"
+      ],
+      "authors": [
+        {
+          "name": "Olga Potapova",
+          "status": "inferred_from_filename"
+        }
+      ],
       "last_verified": "2026-09-27"
     },
     {
@@ -50,9 +73,18 @@
       "photo_count": 15,
       "source_kind": "official",
       "usage_status": "link_only_pending_rights_check",
-      "cover_image_url": null,
-      "gallery_image_urls": [],
-      "authors": [],
+      "cover_image_url": "https://ooptlo.ru/assets/images/resources/154/fon160828-604-copy-laminsuo-shishenkovvv.gif",
+      "gallery_image_urls": [
+        "https://ooptlo.ru/assets/images/resources/154/fon160828-604-copy-laminsuo-shishenkovvv.gif",
+        "https://ooptlo.ru/assets/images/resources/154/fon160828-610-copy-laminsuo-shishenkovvv.gif",
+        "https://ooptlo.ru/assets/images/resources/154/fon160831-094-copy-laminsuo-shishenkovvv.gif"
+      ],
+      "authors": [
+        {
+          "name": "V. V. Shishenkov",
+          "status": "inferred_from_filename"
+        }
+      ],
       "last_verified": "2026-09-27"
     },
     {
@@ -62,9 +94,18 @@
       "photo_count": 22,
       "source_kind": "official",
       "usage_status": "link_only_pending_rights_check",
-      "cover_image_url": null,
-      "gallery_image_urls": [],
-      "authors": [],
+      "cover_image_url": "https://ooptlo.ru/assets/images/resources/135/dsc-2130-nikolay-stepanenko.jpg",
+      "gallery_image_urls": [
+        "https://ooptlo.ru/assets/images/resources/135/dsc-2130-nikolay-stepanenko.jpg",
+        "https://ooptlo.ru/assets/images/resources/135/dsc-2136-nikolay-stepanenko.jpg",
+        "https://ooptlo.ru/assets/images/resources/135/dsc-2160-nikolay-stepanenko.jpg"
+      ],
+      "authors": [
+        {
+          "name": "Nikolay Stepanenko",
+          "status": "inferred_from_filename"
+        }
+      ],
       "last_verified": "2026-09-27"
     },
     {
