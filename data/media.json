@@ -422,11 +422,142 @@
       "reuse": "allowed",
       "local_target": "media/granite-palace/commons-granite-palace.jpg",
       "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-anninsky-1260",
+      "place_ids": [
+        "anninskie-fortifications"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:1260._Vyborg._Anninsky_fortifications.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/anninskie-fortifications/commons-1260-anninsky.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-monrepo-ludwigsburg-2026",
+      "place_ids": [
+        "monrepo-ludwigsburg"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Monrepo_-_Ludwigsburg_Chapel.jpg",
+      "author": "Александр Сигачёв",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "reuse": "allowed",
+      "local_target": "media/monrepo-ludwigsburg/commons-ludwigsburg-chapel.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-hyacinth-8914",
+      "place_ids": [
+        "hyacinth-church",
+        "knightshouse"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vyborg_StHyacinthChurch_006_8914.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/hyacinth-church/commons-vyborg-st-hyacinth-8914.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-transfiguration-aerial",
+      "place_ids": [
+        "transfiguration-cathedral"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Выборг,_Спасо-Преображенский_собор_сверху_(1).jpg",
+      "author": "Nikolai Bulykin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/transfiguration-cathedral/commons-vyborg-transfiguration-aerial.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-priozersk-lutheran-1844",
+      "place_ids": [
+        "lutheran-priozersk"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Priozersk_LutheranChurch_007_1844.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/lutheran-priozersk/commons-priozersk-lutheran-1844.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-koltushi-heights-4",
+      "place_ids": [
+        "koltushskie-vysoty"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Колтушские_высоты_4.jpg",
+      "author": "Konstantin Morin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/koltushskie-vysoty/commons-koltushi-heights-4.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-repino-coast-0104fa",
+      "place_ids": [
+        "repino-shore"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:0104Fa._Репино._Побережье_Финского_залива.jpg",
+      "author": "Александровы АГ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/repino-shore/commons-repino-coast-0104fa.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vuoksa-priozersk",
+      "place_ids": [
+        "vuoksa"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Озеро_Вуокса_рядом_с_вокзалом_Приозерска.jpg",
+      "author": "Роман Паньков",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/vuoksa/commons-vuoksa-priozersk.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-shchuchye-beach-pd",
+      "place_ids": [
+        "shchuchye-lake"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Щучье_озеро,_пляж.jpg",
+      "author": "Пётр Иванов",
+      "license": "Public domain",
+      "license_url": null,
+      "reuse": "allowed",
+      "local_target": "media/shchuchye-lake/commons-shchuchye-beach.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-sukhodolskoe-winter",
+      "place_ids": [
+        "sukhodolskoye"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sukhodolskoe_lake_-_Суходольское_озеро,_зима_-_panoramio.jpg",
+      "author": "S Petr",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "reuse": "allowed_with_attribution",
+      "local_target": "media/sukhodolskoye/commons-sukhodolskoe-winter.jpg",
+      "upload_status": "source_verified_binary_pending"
     }
   ],
   "coverage": {
     "total_places": 100,
-    "places_with_verified_reusable_asset": 39,
+    "places_with_verified_reusable_asset": 50,
     "last_scan": "2026-09-27",
     "binary_import_note": "Run scripts/download_media.py locally to fetch verified Wikimedia thumbnails into repository media paths."
   }
