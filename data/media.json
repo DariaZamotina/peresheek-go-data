@@ -181,6 +181,173 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "reuse": "allowed_with_attribution_and_sharealike",
       "local_target": "media/gladyshevka/commons-gladyshevsky-050le.jpg"
+    },
+    {
+      "asset_id": "commons-vyborg-castle-9376-2",
+      "place_ids": [
+        "castle",
+        "vyborg-castle-island",
+        "olaf",
+        "vyborg-main-museum",
+        "vyborg-arsenal",
+        "vyborg-governor-house",
+        "vyborg-zeughaus",
+        "vyborg-pottery",
+        "vyborg-printing",
+        "nature-isthmus-exhibition",
+        "vyborg-ww2-exhibition"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:9376.2._Vyborg_Castle.jpg",
+      "author": "Александровы АГ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/vyborg-castle/commons-9376-2-vyborg-castle.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-monrepos-park",
+      "place_ids": [
+        "monrepo",
+        "monrepoeco"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Monrepos_park.jpg",
+      "author": "Мартын Лютый",
+      "license": "Creative Commons (see source page)",
+      "license_url": null,
+      "reuse": "allowed_per_commons_file_license; exact version to be captured before binary import",
+      "local_target": "media/monrepo/commons-monrepos-park.jpg",
+      "upload_status": "source_verified_license_version_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-clock-tower",
+      "place_ids": [
+        "clocktower"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vyborg_Clock_Tower.jpg",
+      "author": "Tatu Kosonen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/clocktower/commons-vyborg-clock-tower.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-round-tower-3",
+      "place_ids": [
+        "roundtower",
+        "market-square-vyborg"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Round_tower_in_Vyborg_(3).jpg",
+      "author": "Reda Kerbouche",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/roundtower/commons-round-tower-vyborg-3.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-primorsk-church-9407",
+      "place_ids": [
+        "primorsk-kirkha",
+        "primorsk"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:9407._Primorsk._Church_of_St._Mary_Magdalene.jpg",
+      "author": "Александровы АГ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/primorsk-kirkha/commons-9407-st-mary-magdalene.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-dubki-6825",
+      "place_ids": [
+        "dubki-park",
+        "sestroretsk"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:6825._Dubki_Park_in_Sestroretsk.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/dubki-park/commons-6825-dubki.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vuoksa-losevo",
+      "place_ids": [
+        "losevo",
+        "losevo-bridge",
+        "losevo-water-route"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:River_Vuoksa_in_Losevo.jpg",
+      "author": "Ninaras",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/losevo/commons-river-vuoksa-losevo.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-sestroretsky-razliv",
+      "place_ids": [
+        "sestroretsky-razliv",
+        "sestroretsk"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sestroretsk_Swamp_Nature_Reserve._The_road_along_the_bank_of_the_Sestroretsky_Razliv.jpg",
+      "author": "Александр Байдуков",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/sestroretsky-razliv/commons-sestroretsky-razliv.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-korela-4298-1",
+      "place_ids": [
+        "korela",
+        "korela-old-arsenal"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:4298-1._Priozersk._Korela_fortress.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/korela/commons-4298-1-korela.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-korela-round-tower-4296-3",
+      "place_ids": [
+        "korela-round-tower"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:4296-3._Priozersk._Korela_Fortress.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/korela-round-tower/commons-4296-3-round-tower.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-library",
+      "place_ids": [
+        "aaltolib"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vyborg_Library.jpg",
+      "author": "Aleksandr Mikhailov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/aaltolib/commons-vyborg-library.jpg",
+      "upload_status": "source_verified_binary_pending"
     }
-  ]
+  ],
+  "coverage": {
+    "total_places": 100,
+    "places_with_verified_reusable_asset": 31,
+    "last_scan": "2026-09-27",
+    "binary_import_note": "Runtime cannot currently retrieve Wikimedia original binaries; verified sources and intended repository paths are recorded for import."
+  }
 }
