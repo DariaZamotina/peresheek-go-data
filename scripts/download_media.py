@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download only explicitly reusable Wikimedia Commons images listed in data/media.json.
+"""Download web-sized copies of explicitly reusable Wikimedia Commons images listed in data/media.json.
 
 Uses Python standard library only. It resolves the original file URL through
 the MediaWiki API, saves the binary under each asset's local_target, and writes
@@ -26,9 +26,10 @@ ROOT = Path(__file__).resolve().parents[1]
 MEDIA_JSON = ROOT / "data" / "media.json"
 ATTRIBUTION = ROOT / "media" / "ATTRIBUTION.md"
 API = "https://commons.wikimedia.org/w/api.php"
-USER_AGENT = "PeresheekGO-media-downloader/0.2 (licensed media import; contact via GitHub DariaZamotina/peresheek-go-data)"
-REQUEST_DELAY = 4
+USER_AGENT = "PeresheekGO-media-downloader/0.3 (licensed media import; contact via GitHub DariaZamotina/peresheek-go-data)"
+REQUEST_DELAY = 3
 MAX_RETRIES = 5
+THUMB_WIDTH = 1600
 
 ALLOWED_LICENSES = (
     "Public domain",
@@ -73,6 +74,7 @@ def resolve_original(title: str) -> dict:
         "format": "json",
         "prop": "imageinfo",
         "iiprop": "url|extmetadata",
+        "iiurlwidth": str(THUMB_WIDTH),
         "titles": title,
     })
     req = urllib.request.Request(f"{API}?{query}", headers={"User-Agent": USER_AGENT})
@@ -80,8 +82,8 @@ def resolve_original(title: str) -> dict:
         payload = json.load(response)
     page = next(iter(payload["query"]["pages"].values()))
     info = page.get("imageinfo", [None])[0]
-    if not info or not info.get("url"):
-        raise RuntimeError(f"Commons did not return an original URL for {title}")
+    if not info or not (info.get("thumburl") or info.get("url")):
+        raise RuntimeError(f"Commons did not return an image URL for {title}")
     return info
 
 
@@ -139,7 +141,7 @@ def main() -> int:
                 title = commons_title(source)
                 info = resolve_original(title)
                 time.sleep(REQUEST_DELAY)
-                status = download(info["url"], target)
+                status = download(info.get("thumburl") or info["url"], target)
             imported.append((asset, target.relative_to(ROOT).as_posix()))
             print(f"OK   {aid} ({status}) -> {target.relative_to(ROOT)}")
         except Exception as exc:
