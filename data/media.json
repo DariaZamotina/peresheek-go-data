@@ -1,0 +1,107 @@
+{
+  "version": "0.1",
+  "last_updated": "2026-09-27",
+  "policy": {
+    "description": "Official media sources for Peresheek.GO place cards. Image files are not copied into the repository until reuse rights are verified.",
+    "default_usage_status": "link_only_pending_rights_check",
+    "preferred_source_kind": "official"
+  },
+  "places": [
+    {
+      "place_id": "lindulovskaya",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/lindulovskaya.html",
+      "photo_count": 24,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "rakovye",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/rakovyie-ozera1.html",
+      "photo_count": 21,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "gryada-vyaryamyanselkya",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/gryada-vyaryamyanselkya1.html",
+      "photo_count": 22,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "lammin-suo",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/boloto-lammin-suo-photo.html",
+      "photo_count": 15,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "berezovye",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/berezovyie-ostrova-foto.html",
+      "photo_count": 22,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "toksovo",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/toksovskie-vyisot.html",
+      "photo_count": 17,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "vyborgsky-oopt",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/vyiborgskij.html",
+      "photo_count": null,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    },
+    {
+      "place_id": "gladyshevka",
+      "source_name": "Дирекция ООПТ Ленинградской области",
+      "gallery_page": "https://ooptlo.ru/gladyishevskij.html",
+      "photo_count": null,
+      "source_kind": "official",
+      "usage_status": "link_only_pending_rights_check",
+      "cover_image_url": null,
+      "gallery_image_urls": [],
+      "authors": [],
+      "last_verified": "2026-09-27"
+    }
+  ]
+}
