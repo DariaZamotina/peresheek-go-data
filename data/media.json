@@ -342,12 +342,92 @@
       "reuse": "allowed_with_attribution_and_sharealike",
       "local_target": "media/aaltolib/commons-vyborg-library.jpg",
       "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-monrepo-neptune",
+      "place_ids": [
+        "monrepo-neptune"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Храм_Нептуна._Парк_Монрепо,_Выборг.jpg",
+      "author": "Poilklad",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/monrepo-neptune/commons-monrepo-neptune.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-priozersk-all-saints-4283-1",
+      "place_ids": [
+        "all-saints-priozersk"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:4283-1._Priozersk._All_Saints_Church.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/all-saints-priozersk/commons-4283-1-all-saints.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-toksovo-kavgolovskoe-540",
+      "place_ids": [
+        "toksovo"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:540._Токсово._Кавголовское_озеро.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/toksovo/commons-540-toksovo-kavgolovskoe.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-komarovsky-shore-public-domain",
+      "place_ids": [
+        "komarovsky-bereg",
+        "komarovo-shore"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Комарово_объект_в_заказнике.JPG",
+      "author": "Пётр Иванов",
+      "license": "Public domain",
+      "license_url": null,
+      "reuse": "allowed",
+      "local_target": "media/komarovsky-bereg/commons-komarovsky-shore-public-domain.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-hermitage-vyborg",
+      "place_ids": [
+        "hermitage-vyborg"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hermitage_Vyborg.JPG",
+      "author": "Милашин П. А.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "reuse": "allowed_with_attribution",
+      "local_target": "media/hermitage-vyborg/commons-hermitage-vyborg.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-granite-palace-cc0",
+      "place_ids": [
+        "granite-palace",
+        "hakman-house"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Гранитный_дворец.jpg",
+      "author": "Александр Сигачёв",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "reuse": "allowed",
+      "local_target": "media/granite-palace/commons-granite-palace.jpg",
+      "upload_status": "source_verified_binary_pending"
     }
   ],
   "coverage": {
     "total_places": 100,
-    "places_with_verified_reusable_asset": 31,
+    "places_with_verified_reusable_asset": 39,
     "last_scan": "2026-09-27",
-    "binary_import_note": "Runtime cannot currently retrieve Wikimedia original binaries; verified sources and intended repository paths are recorded for import."
+    "binary_import_note": "Run scripts/download_media.py locally to fetch verified Wikimedia thumbnails into repository media paths."
   }
 }
