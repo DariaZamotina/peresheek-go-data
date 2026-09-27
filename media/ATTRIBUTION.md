@@ -106,3 +106,51 @@ Always keep this attribution information with redistributed images.
 - License: CC BY-SA 4.0
 - License URL: https://creativecommons.org/licenses/by-sa/4.0/
 - Source: https://commons.wikimedia.org/wiki/File:Vyborg_Library.jpg
+
+## commons-monrepo-neptune
+- Local file: `media/monrepo-neptune/commons-monrepo-neptune.jpg`
+- Place IDs: monrepo-neptune
+- Author: Poilklad
+- License: CC BY-SA 4.0
+- License URL: https://creativecommons.org/licenses/by-sa/4.0/
+- Source: https://commons.wikimedia.org/wiki/File:Храм_Нептуна._Парк_Монрепо,_Выборг.jpg
+
+## commons-priozersk-all-saints-4283-1
+- Local file: `media/all-saints-priozersk/commons-4283-1-all-saints.jpg`
+- Place IDs: all-saints-priozersk
+- Author: GAlexandrova
+- License: CC BY-SA 4.0
+- License URL: https://creativecommons.org/licenses/by-sa/4.0/
+- Source: https://commons.wikimedia.org/wiki/File:4283-1._Priozersk._All_Saints_Church.jpg
+
+## commons-toksovo-kavgolovskoe-540
+- Local file: `media/toksovo/commons-540-toksovo-kavgolovskoe.jpg`
+- Place IDs: toksovo
+- Author: GAlexandrova
+- License: CC BY-SA 4.0
+- License URL: https://creativecommons.org/licenses/by-sa/4.0/
+- Source: https://commons.wikimedia.org/wiki/File:540._Токсово._Кавголовское_озеро.jpg
+
+## commons-komarovsky-shore-public-domain
+- Local file: `media/komarovsky-bereg/commons-komarovsky-shore-public-domain.jpg`
+- Place IDs: komarovsky-bereg, komarovo-shore
+- Author: Пётр Иванов
+- License: Public domain
+- License URL: See source page
+- Source: https://commons.wikimedia.org/wiki/File:Комарово_объект_в_заказнике.JPG
+
+## commons-hermitage-vyborg
+- Local file: `media/hermitage-vyborg/commons-hermitage-vyborg.jpg`
+- Place IDs: hermitage-vyborg
+- Author: Милашин П. А.
+- License: CC BY 3.0
+- License URL: https://creativecommons.org/licenses/by/3.0/
+- Source: https://commons.wikimedia.org/wiki/File:Hermitage_Vyborg.JPG
+
+## commons-granite-palace-cc0
+- Local file: `media/granite-palace/commons-granite-palace.jpg`
+- Place IDs: granite-palace, hakman-house
+- Author: Александр Сигачёв
+- License: CC0 1.0
+- License URL: https://creativecommons.org/publicdomain/zero/1.0/
+- Source: https://commons.wikimedia.org/wiki/File:Гранитный_дворец.jpg
