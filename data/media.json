@@ -5,7 +5,10 @@
     "description": "Official media sources for Peresheek.GO place cards. Image files are not copied into the repository until reuse rights are verified.",
     "default_usage_status": "link_only_pending_rights_check",
     "preferred_source_kind": "official",
-    "direct_image_note": "Direct image URLs are source-site assets; verify hotlink reliability and reuse permission before production."
+    "direct_image_note": "Direct image URLs are source-site assets; verify hotlink reliability and reuse permission before production.",
+    "ooptlo_copy_status": "not_permitted_without_additional_permission",
+    "ooptlo_reason": "No explicit public reuse license was found on the official site during verification on 2026-09-27. Keep source links only until written permission is obtained.",
+    "free_media_strategy": "Prefer explicitly licensed Wikimedia Commons assets; store author, source page and license with every local copy."
   },
   "places": [
     {
@@ -143,6 +146,41 @@
       "gallery_image_urls": [],
       "authors": [],
       "last_verified": "2026-09-27"
+    }
+  ],
+  "reusable_assets": [
+    {
+      "place_id": "lindulovskaya",
+      "asset_id": "commons-lindulovskaya-9102",
+      "source_page": "https://commons.wikimedia.org/wiki/File:9102._Lindulovskaya_Grove.jpg",
+      "file_name": "9102. Lindulovskaya Grove.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/lindulovskaya/commons-lindulovskaya-9102.jpg"
+    },
+    {
+      "place_id": "yastreb",
+      "asset_id": "commons-yastrebinoye",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yastrebinoye.jpg",
+      "file_name": "Yastrebinoye.jpg",
+      "author": "Владимирская Русь",
+      "license": "Public domain",
+      "license_url": null,
+      "reuse": "allowed",
+      "local_target": "media/yastreb/commons-yastrebinoye.jpg"
+    },
+    {
+      "place_id": "gladyshevka",
+      "asset_id": "commons-gladyshevsky-050le",
+      "source_page": "https://commons.wikimedia.org/wiki/File:050LE._Gladyshevsky_reserve.jpg",
+      "file_name": "050LE. Gladyshevsky reserve.jpg",
+      "author": "GAlexandrova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/gladyshevka/commons-gladyshevsky-050le.jpg"
     }
   ]
 }
