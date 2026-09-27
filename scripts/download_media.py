@@ -15,6 +15,9 @@ from __future__ import annotations
 
 import json
 import sys
+import time
+import socket
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -23,7 +26,9 @@ ROOT = Path(__file__).resolve().parents[1]
 MEDIA_JSON = ROOT / "data" / "media.json"
 ATTRIBUTION = ROOT / "media" / "ATTRIBUTION.md"
 API = "https://commons.wikimedia.org/w/api.php"
-USER_AGENT = "PeresheekGO-media-downloader/0.1 (licensed media import)"
+USER_AGENT = "PeresheekGO-media-downloader/0.2 (licensed media import; contact via GitHub DariaZamotina/peresheek-go-data)"
+REQUEST_DELAY = 4
+MAX_RETRIES = 5
 
 ALLOWED_LICENSES = (
     "Public domain",
@@ -41,6 +46,27 @@ def commons_title(source_page: str) -> str:
     return slug.replace("_", " ")
 
 
+def open_with_retry(req, timeout=30):
+    for attempt in range(MAX_RETRIES):
+        try:
+            return urllib.request.urlopen(req, timeout=timeout)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429 or 500 <= exc.code < 600:
+                retry_after = exc.headers.get("Retry-After")
+                wait = int(retry_after) if retry_after and retry_after.isdigit() else min(60, 5 * (2 ** attempt))
+                print(f"WAIT HTTP {exc.code}; retry in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+        except (urllib.error.URLError, TimeoutError, socket.timeout):
+            if attempt == MAX_RETRIES - 1:
+                raise
+            wait = min(60, 5 * (2 ** attempt))
+            print(f"WAIT network error; retry in {wait}s")
+            time.sleep(wait)
+    raise RuntimeError("Retry limit exceeded")
+
+
 def resolve_original(title: str) -> dict:
     query = urllib.parse.urlencode({
         "action": "query",
@@ -49,11 +75,8 @@ def resolve_original(title: str) -> dict:
         "iiprop": "url|extmetadata",
         "titles": title,
     })
-    req = urllib.request.Request(
-        f"{API}?{query}",
-        headers={"User-Agent": USER_AGENT},
-    )
-    with urllib.request.urlopen(req, timeout=30) as response:
+    req = urllib.request.Request(f"{API}?{query}", headers={"User-Agent": USER_AGENT})
+    with open_with_retry(req, timeout=30) as response:
         payload = json.load(response)
     page = next(iter(payload["query"]["pages"].values()))
     info = page.get("imageinfo", [None])[0]
@@ -62,14 +85,26 @@ def resolve_original(title: str) -> dict:
     return info
 
 
-def download(url: str, target: Path) -> None:
+def download(url: str, target: Path) -> str:
     target.parent.mkdir(parents=True, exist_ok=True)
+    if target.exists() and target.stat().st_size >= 1024:
+        return "existing"
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as response:
-        data = response.read()
-    if len(data) < 1024:
-        raise RuntimeError(f"Downloaded file is unexpectedly small: {len(data)} bytes")
-    target.write_bytes(data)
+    tmp = target.with_suffix(target.suffix + ".part")
+    try:
+        with open_with_retry(req, timeout=45) as response, tmp.open("wb") as out:
+            while True:
+                chunk = response.read(1024 * 1024)
+                if not chunk:
+                    break
+                out.write(chunk)
+        if tmp.stat().st_size < 1024:
+            raise RuntimeError(f"Downloaded file is unexpectedly small: {tmp.stat().st_size} bytes")
+        tmp.replace(target)
+        return "downloaded"
+    finally:
+        if tmp.exists():
+            tmp.unlink(missing_ok=True)
 
 
 def main() -> int:
@@ -96,12 +131,17 @@ def main() -> int:
             continue
 
         try:
-            title = commons_title(source)
-            info = resolve_original(title)
             target = ROOT / local_target
-            download(info["url"], target)
+            if target.exists() and target.stat().st_size >= 1024:
+                status = "existing"
+            else:
+                time.sleep(REQUEST_DELAY)
+                title = commons_title(source)
+                info = resolve_original(title)
+                time.sleep(REQUEST_DELAY)
+                status = download(info["url"], target)
             imported.append((asset, target.relative_to(ROOT).as_posix()))
-            print(f"OK   {aid} -> {target.relative_to(ROOT)}")
+            print(f"OK   {aid} ({status}) -> {target.relative_to(ROOT)}")
         except Exception as exc:
             failed.append((aid, str(exc)))
             print(f"FAIL {aid}: {exc}", file=sys.stderr)
