@@ -703,11 +703,38 @@
       "reuse": "allowed_with_attribution_and_sharealike",
       "local_target": "media/bolshoe-simaginskoe/commons-bolshoe-simaginskoe-south-2.jpg",
       "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-esplanade-elk",
+      "place_ids": [
+        "esplanade-vyborg",
+        "lenin-park-vyborg"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Выборг._Парк_%22Эспланада%22._Знаменитый_лось._-_panoramio.jpg",
+      "author": "Natalia Semenova",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "reuse": "allowed_with_attribution",
+      "local_target": "media/esplanade-vyborg/commons-vyborg-esplanade-elk.jpg",
+      "upload_status": "source_verified_binary_pending"
+    },
+    {
+      "asset_id": "commons-vyborg-peter-paul-seagull",
+      "place_ids": [
+        "peter-paul-vyborg"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Выборг._Собор_Петра_и_Павла,_крест_и_чайка.jpg",
+      "author": "Екатерина Борисова",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "reuse": "allowed_with_attribution_and_sharealike",
+      "local_target": "media/peter-paul-vyborg/commons-vyborg-peter-paul-seagull.jpg",
+      "upload_status": "source_verified_binary_pending"
     }
   ],
   "coverage": {
     "total_places": 100,
-    "places_with_verified_reusable_asset": 64,
+    "places_with_verified_reusable_asset": 67,
     "last_scan": "2026-09-30",
     "binary_import_note": "Run scripts/download_media.py locally to fetch verified Wikimedia thumbnails into repository media paths."
   }
